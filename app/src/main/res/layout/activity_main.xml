@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:backgroundTint="@color/lightpeach">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="CALCUALATE YOUR"
+        android:textColor="@color/blue"
+
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/blue"
+        android:fontFamily="@font/alegreya_sc"
+        android:padding="3dp"
+
+        android:text="AGE"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+
+
+        tools:ignore="DuplicateIds" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="In Days"
+        android:textColor="@color/blue"
+
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingHorizontal="40dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:backgroundTint="@color/lightblue"
+        android:textSize="22dp"
+        android:text="Select date" />
+
+    <TextView
+        android:id="@+id/tvtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="01/01/1900"
+        android:textColor="@color/blue"
+        android:textSize="21dp"
+
+
+
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="selected date"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+
+
+
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="365"
+        android:textColor="@color/blue"
+        android:textSize="22dp"
+
+
+
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Your Age In Days"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+
+
+
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+</LinearLayout>
